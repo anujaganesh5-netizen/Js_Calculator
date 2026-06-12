@@ -15,23 +15,27 @@
     input{
         color: black;
         background-color: aliceblue;
-       
+       border: 1px solid white;
+       display: flex;
+       align-items: center;
+       justify-content: center
+     
     }
 </style>
 </head>
 <body>
     <h2 > Calculator</h2>
-    <input type="number" id="number1" placeholder="Number 1">
+    <input type="number" id="number1" placeholder="Number 1"> <br>
     <select id="operator">
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="*">*</option>
         <option value="/">/</option>
-    </select>
-    <input type="number" id="number2" placeholder="Number 2">
-    <button id="calculate">Calculate</button>
+    </select><br><br>
+    <input type="number" id="number2" placeholder="Number 2"><br>
+    <button id="calculate">Calculate</button><br>
 
-    <div id="result"></div>
+    <div id="result"></div><br>
 
     <script type="module" src="./app.js"></script>
 </body>
